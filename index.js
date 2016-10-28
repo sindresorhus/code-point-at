@@ -1,5 +1,5 @@
 'use strict';
-var numberIsNan = require('number-is-nan');
+var numberIsNan = Number.isNaN;
 
 module.exports = function (str, pos) {
 	if (str === null || str === undefined) {
