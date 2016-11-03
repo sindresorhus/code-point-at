@@ -10,7 +10,7 @@ module.exports = function (str, pos) {
 	var size = str.length;
 	var i = pos ? Number(pos) : 0;
 
-	if (Number.isNaN(i)) {
+	if (isNaN(i)) {
 		i = 0;
 	}
 
